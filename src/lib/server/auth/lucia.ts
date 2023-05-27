@@ -1,13 +1,13 @@
 import lucia from "lucia-auth";
 import { sveltekit } from "lucia-auth/middleware";
-import prisma from "@lucia-auth/adapter-prisma";
-import { PrismaClient } from "@prisma/client";
+import prismaAdapter from "@lucia-auth/adapter-prisma";
+import { prisma } from "$lib/server";
 import { dev } from "$app/environment";
 import { google } from '@lucia-auth/oauth/providers';
 import { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REDIRECT_URI } from '$env/static/private';
 
 export const auth = lucia({
-    adapter: prisma(new PrismaClient()),
+    adapter: prismaAdapter(prisma),
     env: dev ? "DEV" : "PROD",
     middleware: sveltekit(),
     transformDatabaseUser: (userData) => {

@@ -44,3 +44,8 @@ model AuthKey {
   @@index([user_id])
   @@map("auth_key")
 }
+
+model Item {
+  id      Int @id @default(autoincrement())
+  name    String
+}
