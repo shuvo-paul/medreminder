@@ -7,7 +7,4 @@
 
 <div class="container">
     <h1>Welcome</h1>
-    <form use:enhance method="post">
-        <input class=" cursor-pointer" type="submit" value="Sign out" />
-    </form>
 </div>
