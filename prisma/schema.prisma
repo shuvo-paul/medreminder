@@ -6,9 +6,9 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
-  relationMode = "prisma"
+  directUrl = env("DIRECT_URL")
 }
 
 model AuthUser {
@@ -48,4 +48,6 @@ model AuthKey {
 model Item {
   id      Int @id @default(autoincrement())
   name    String
+
+  @@map("item")
 }
