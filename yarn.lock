@@ -249,10 +249,10 @@
   dependencies:
     lucia-auth "1.3.0"
 
-"@lucia-auth/oauth@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@lucia-auth/oauth/-/oauth-1.1.0.tgz#c555222544bc03776c896834ffa980b90d0b1c85"
-  integrity sha512-x/XTbguX2sdbMo6xhAUlWUUdFpvCjT52z/o6E3i5WWfGmn6UT32qNMLZc22KPK+lWHmybK4yzGhXkQtmiSoDFg==
+"@lucia-auth/oauth@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@lucia-auth/oauth/-/oauth-1.1.1.tgz#a4b47972de2a4274a4d7d626044862446ccb2a95"
+  integrity sha512-GeUetiZlSSThb610CzNrUD+D/lo2gbtjscQhQoqKjJStW9qKmhk8qJjhnrrNdNlIJIND/9/Dv1X9FtStMootpA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
