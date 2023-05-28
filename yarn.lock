@@ -249,10 +249,10 @@
   dependencies:
     lucia-auth "1.3.0"
 
-"@lucia-auth/oauth@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@lucia-auth/oauth/-/oauth-1.0.1.tgz#9ca4649a632909ab310340da0dc959e98848ad09"
-  integrity sha512-OBadkPRrigO66M5eJ2c9OtPokqVrcuitc5cMeDK333o7iic9fjga3w2/EXLc5UnrxlpJtgtlE2sfS0q2uO/M2Q==
+"@lucia-auth/oauth@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@lucia-auth/oauth/-/oauth-1.1.0.tgz#c555222544bc03776c896834ffa980b90d0b1c85"
+  integrity sha512-x/XTbguX2sdbMo6xhAUlWUUdFpvCjT52z/o6E3i5WWfGmn6UT32qNMLZc22KPK+lWHmybK4yzGhXkQtmiSoDFg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -290,10 +290,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@prisma/client@^4.14.0":
-  version "4.14.0"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.14.0.tgz#715b3dd045d094b03cb0a7f2991f088d15ae553e"
-  integrity sha512-MK/XaA2sFdfaOa7I9MjNKz6dxeIEdeZlnpNRoF2w3JuRLlFJLkpp6cD3yaqw2nUUhbrn3Iqe3ZpVV+VuGGil7Q==
+"@prisma/client@^4.14.1":
+  version "4.14.1"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.14.1.tgz#61720f385f687f7e88de41fccade1ed62be57a54"
+  integrity sha512-TZIswkeX1ccsHG/eN2kICzg/csXll0osK3EHu1QKd8VJ3XLcXozbNELKkCNfsCUvKJAwPdDtFCzF+O+raIVldw==
   dependencies:
     "@prisma/engines-version" "4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c"
 
@@ -1321,10 +1321,10 @@ lucia-auth@1.3.0:
   resolved "https://registry.yarnpkg.com/lucia-auth/-/lucia-auth-1.3.0.tgz#3998d17eab3aa65913697f6ec2aee9857be95695"
   integrity sha512-0sdMOFEapTy8FE9QJEdOe/tRiv7n0gP2so83WbRwJlPjfnA7e6k3YPKPXuxTC20AqmAMJeGiOkDPJk+d2/EaVg==
 
-lucia-auth@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/lucia-auth/-/lucia-auth-1.5.0.tgz#4d433a35cca4d5fed7852074f23d617a645bf4f3"
-  integrity sha512-lLgLvyJcCjK+dYwJrgzPWGjT+YGgl7JF13TahXKozf/C3KkX/fFzOAUkY0h5xnm585lJE5BBrQIXAXa+rDzW6g==
+lucia-auth@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/lucia-auth/-/lucia-auth-1.7.1.tgz#4a161b0d5b5bf6ba7069cf9334ab81890a41d284"
+  integrity sha512-QXTWdcDpQfpA1c64LXo80Imfk8V8Hn5w+Rmv+DPbArSJc4nPYVxbBR4+XwTcnW7YQOeoo7yNLXMjYOQDW27eNg==
 
 magic-string@^0.27.0:
   version "0.27.0"
