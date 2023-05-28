@@ -17,7 +17,7 @@ export const auth = lucia({
         };
     },
     experimental: {
-        debugMode: true
+        debugMode: dev
     }
 });
 
