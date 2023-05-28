@@ -15,6 +15,9 @@ export const auth = lucia({
             userId: userData.id,
             name: userData?.name,
         };
+    },
+    experimental: {
+        debugMode: true
     }
 });
 
